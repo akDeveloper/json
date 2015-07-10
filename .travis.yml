@@ -7,5 +7,5 @@ php:
   - hhvm
 script:
   - composer dump-autoload
-  - phpunit
+  - phpunit tests/
 
