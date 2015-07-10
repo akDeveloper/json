@@ -12,6 +12,8 @@ class JsonEncoder
 
     protected $options = 0;
 
+    protected $error;
+
     public function __construct($options = 0, $depth = 512)
     {
         $this->depth = $depth;
