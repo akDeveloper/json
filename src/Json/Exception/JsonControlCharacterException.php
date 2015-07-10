@@ -7,8 +7,8 @@ namespace Json\Exception;
 use UnexpectedValueException;
 use Exception;
 
-class JsonControlCharacterException extends UnexpectedValueException
-    implements JsonException
+class JsonControlCharacterException extends UnexpectedValueException implements
+    JsonException
 {
     public function __construct(
         $message = "Control character error, possibly incorrectly encoded.",

@@ -7,8 +7,8 @@ namespace Json\Exception;
 use UnexpectedValueException;
 use Exception;
 
-class JsonUnsupportedTypeException extends UnexpectedValueException
-    implements JsonException
+class JsonUnsupportedTypeException extends UnexpectedValueException implements
+    JsonException
 {
     public function __construct(
         $message = "A value of a type that cannot be encoded was given.",

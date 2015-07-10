@@ -7,8 +7,8 @@ namespace Json\Exception;
 use UnexpectedValueException;
 use Exception;
 
-class JsonStateMismatchException extends UnexpectedValueException
-    implements JsonException
+class JsonStateMismatchException extends UnexpectedValueException implements
+    JsonException
 {
     public function __construct(
         $message = "Invalid or malformed JSON.",
