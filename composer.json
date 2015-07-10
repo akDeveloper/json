@@ -14,6 +14,7 @@
     "autoload": {
         "psr-4": {
             "Json\\": "src/Json"
-        }
+        },
+        "files": ["src/compatible.php"]
     }
 }
