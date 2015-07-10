@@ -12,6 +12,8 @@ abstract class Decoder
 
     protected $options = 0;
 
+    protected $error;
+
     public function __construct($depth = 512, $options = 0)
     {
         $this->depth = $depth;
