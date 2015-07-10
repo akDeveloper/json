@@ -7,7 +7,8 @@ namespace Json\Exception;
 use LengthException;
 use Exception;
 
-class JsonDepthException extends LengthException
+class JsonDepthException extends LengthException implements
+    JsonException
 {
     public function __construct(
         $message = "The maximum stack depth has been exceeded.",
