@@ -1,4 +1,4 @@
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/akDeveloper/json/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/akDeveloper/json/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/akDeveloper/json/badges/build.png?b=master)](https://scrutinizer-ci.com/g/akDeveloper/json/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/akDeveloper/json/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/akDeveloper/json/?branch=master) [![Build Status](https://travis-ci.org/akDeveloper/json.svg?branch=master)](https://travis-ci.org/akDeveloper/json)
 
 A json wrapper for php json encode/decode functions
 
